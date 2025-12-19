@@ -1,0 +1,28 @@
+
+Version 1.0.0   June 17, 2013
+
+This is a reference copy of the terms of the Eclipse Foundation Contributor License Agreement. To actually complete and submit a CLA, please go to the CLA form.
+
+Thank you for your interest in one or more projects managed by the Eclipse Foundation, Inc. ("Eclipse Foundation"). In order for You (as defined below) to make intellectual property Contributions (as defined below) now or in the future to Eclipse Foundation projects, You must agree to this Contributor License Agreement ("CLA"). If You have any questions about this agreement, licensing, or anything related to intellectual property at the Eclipse Foundation, please send an email to license@eclipse.org.
+
+Please read this CLA carefully before accepting its terms. By accepting the CLA, You are agreeing to be bound by its terms.  If You want to accept this CLA, complete the form completely, print a copy for Your records, and when ready, press the “Accept” button at the end of this form.
+
+As used in this CLA: (i) “You" (or "Your") shall mean the entity that is making this Agreement with the Eclipse Foundation; (ii)"Contribution" shall mean any original work of authorship, including any modifications or additions to an existing work, that is submitted by You to the Eclipse Foundation for inclusion in, or documentation of, any of the Eclipse Foundation projects; and (iii)  “Submit” (or “Submitted”)   means any form of communication sent to the Eclipse Foundation (e.g. the content You post on electronic mailing lists, forums, content management systems, source code control systems, code review systems, issue tracking systems, etc. that are used by the Eclipse Foundation).
+
+This agreement applies to all Contributions You Submit. 
+
+This CLA, and the license(s) associated with the particular Eclipse Foundation projects You are contributing to, provides a license to Your Contributions to the Eclipse Foundation and downstream consumers, but You still own Your Contributions, and except for the licenses provided for in this CLA, You reserve all right, title and interest in Your Contributions.
+
+The Eclipse Foundation requires that each Contribution You Submit now or in the future to comply with the following four commitments. To confirm that You have read and agreed to each, please click on the box beside each one.
+
+You will only Submit Contributions where You have authored 100% of the content.
+You will only Submit Contributions to which You have the necessary rights. This means that if You are employed You have received the necessary permissions from Your employer to make the Contributions.
+Whatever content You Contribute will be provided under the license(s) associated with the particular Eclipse Foundation project You are contributing to. You can see the license(s), or find links to the license(s) in the notices and file headers for the project.
+You understand and agree that Eclipse projects and Your contributions are public, and that a record of the contribution (including all personal information You submit with it, including Your sign-off) is maintained indefinitely and may be redistributed consistent with the license(s) involved.
+You will promptly notify the Eclipse Foundation if You become aware of any facts or circumstances that would make these commitments inaccurate in any way. To do so, please send an email to license@eclipse.org.
+
+If You think an Eclipse Foundation project could make use of content which You did not author, please talk to a committer on that Eclipse Foundation project. If they like Your idea, they will know the process to get it included.
+
+The Eclipse Foundation takes intellectual property very seriously, so we are going to ask You to re-confirm this CLA every three	years.
+
+You represent that the information provided below is accurate.

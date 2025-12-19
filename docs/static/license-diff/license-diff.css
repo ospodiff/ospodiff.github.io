@@ -1,0 +1,53 @@
+/* Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved. */
+
+/* Diff Specific */
+#diffButton:hover {
+  background-color: #2e6da4;
+}
+#diffButton {
+  color: #fff;
+  background-color: #337ab7;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333em;
+  border-radius: 6px;
+  border: 0.6px solid #2e6da4;
+  vertical-align: middle;
+  margin-left: 16px;
+}
+#leftPane {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+.licensearea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  padding: 6px 12px;
+  resize: vertical;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#licensearea {
+  float: right;
+}
+
+#rightPane {
+  width: 50%;
+  float: right;
+  padding: 15px;
+}
+
+#rightPane > div, #leftPane > div {
+  padding: 0.5em 0em;
+}
+
+#diffArea {
+  background-color: #eee;
+  padding: 48px 60px;
+  border-radius: 6px;
+  display: none;
+}
+

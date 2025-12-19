@@ -1,0 +1,207 @@
+{
+  "licenses": [
+    {
+      "isDeprecatedLicenseId": false,
+      "name": "Apache Corporate",
+      "licenseId": "Apache-CCLA",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Apache Individual",
+      "licenseId": "Apache-ICLA",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Apache SGA",
+      "licenseId": "Apache-SGA",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Canonical Individual",
+      "licenseId": "Canonical-ICLA",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Developer CoO",
+      "licenseId": "Developer-CoO",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Eclipse CLA",
+      "licenseId": "Eclipse-ICLA",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Eclipse CoO",
+      "licenseId": "Eclipse-CoO",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Google",
+      "licenseId": "Google-ICLA",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-E-ANY",
+      "licenseId": "Harmony-CAA-E-ANY",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-E-FSF",
+      "licenseId": "Harmony-CAA-E-FSF",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-E-LIST",
+      "licenseId": "Harmony-CAA-E-LIST",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-E-OSI",
+      "licenseId": "Harmony-CAA-E-OSI",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-E",
+      "licenseId": "Harmony-CAA-E",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-I-ANY",
+      "licenseId": "Harmony-CAA-I-ANY",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-I-FSF",
+      "licenseId": "Harmony-CAA-I-FSF",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-I-LIST",
+      "licenseId": "Harmony-CAA-I-LIST",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-I-OSI",
+      "licenseId": "Harmony-CAA-I-OSI",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CAA-I",
+      "licenseId": "Harmony-CAA-I",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-E-ANY",
+      "licenseId": "Harmony-CLA-E-ANY",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-E-FSF",
+      "licenseId": "Harmony-CLA-E-FSF",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-E-LIST",
+      "licenseId": "Harmony-CLA-E-LIST",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-E-OSI",
+      "licenseId": "Harmony-CLA-E-OSI",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-E",
+      "licenseId": "Harmony-CLA-E",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-I-ANY",
+      "licenseId": "Harmony-CLA-I-ANY",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-I-FSF",
+      "licenseId": "Harmony-CLA-I-FSF",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-I-LIST",
+      "licenseId": "Harmony-CLA-I-LIST",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-I-OSI",
+      "licenseId": "Harmony-CLA-I-OSI",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Harmony CLA-I",
+      "licenseId": "Harmony-CLA-I",
+      "seeAlso": [
+	 ""
+      ]
+    },
+      "isDeprecatedLicenseId": false,
+      "name": "Oracle",
+      "licenseId": "Oracle-OCA",
+      "seeAlso": [
+	 ""
+      ]
+    }
+}

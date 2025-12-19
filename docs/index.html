@@ -1,1 +1,62 @@
-Placeholder
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>License Diff</title>
+
+      <link rel="stylesheet" type="text/css" href="static/style.css"/>
+      <script src="static/script.js"></script>
+
+      <script
+              src="https://code.jquery.com/jquery-3.7.1.min.js"
+              integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+              crossorigin="anonymous"></script>
+        
+      <link rel="stylesheet" type="text/css" href="static/license-diff/license-diff.css"/>
+
+      <script src="static/license-diff/diff_match_patch_20180618.js"></script>
+      <script src="static/license-diff/diff_match_patch-wrapper.js"></script>
+    </head>
+    <body>
+        <div id="navbar">
+        </div>
+        <div id="page">
+
+<datalist id="licenses"></datalist> 
+<datalist id="clas"></datalist> 
+
+  <div id="leftPane">
+    <h3>Text Version 1</h3>
+    <textarea class="licensearea" id="licensearea1" rows="12"></textarea>
+    <div><label for="license1">Or select a license:</label></div>
+    <div><input list="licenses" id="license1" placeholder="Choose license..."/></div>
+    <div>
+      <input type="radio" id="license_radio1" name="toggle1" value="licenses" checked="checked" onClick="switchInputTo('license1', 'licenses')"/>
+      <label for="license_radio1">Licenses</label>
+      <input type="radio" id="cla_radio1" name="toggle1" value="clas" onClick="switchInputTo('license1', 'clas')"/>
+      <label for="cla_radio1">CLAs</label>
+    </div>
+  </div>
+
+  <div id="rightPane">
+    <h3>Text Version 2</h3>
+    <textarea class="licensearea" id="licensearea2" rows="12"></textarea>
+    <div><label for="license2">Or select a license:</label></div>
+    <div><input list="licenses" id="license2" placeholder="Choose license..."/></div>
+    <div>
+      <input type="radio" id="license_radio2" name="toggle2" value="licenses" checked="checked" onClick="switchInputTo('license2', 'licenses')"/>
+      <label for="license_radio2">Licenses</label>
+      <input type="radio" id="cla_radio2" name="toggle2" value="clas" onClick="switchInputTo('license2', 'clas')"/>
+      <label for="cla_radio2">CLAs</label>
+    </div>
+  </div>
+
+  <div><input id="diffButton" type="button" value="Compute diff" onClick="showDiff()"/></div>
+
+  <div id='diffArea'></div>
+
+  <script src="static/license-list.js"></script>
+  <script src="static/license-diff/license-diff.js"></script>
+
+    </div>
+  </body>
+</html>
