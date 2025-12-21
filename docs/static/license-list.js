@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
 
     // Load the CLA drop down data
-    $.getJSON(base_url + '/api/alpha/clas.json', function(resp) {
+    $.getJSON(base_url + '/static/license-diff/clas/clas.json', function(resp) {
        clas = resp["data"];
        clas.sort().forEach(function(cla) {
          $('#clas').append('<option>' + cla + '</option>');
