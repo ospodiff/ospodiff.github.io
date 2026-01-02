@@ -10,7 +10,7 @@ var base_url = '/static/license-diff';
 function updateText(licenseInput, textarea) {
     if(licenseInput.attr('list') == 'licenses') {
       $.getJSON(base_url + '/license-list-data-3.27.0/json/details/' + licenseInput.val() + '.json', function(license_data) {
-        textarea.val(license_data['data']['licenseText']);
+        textarea.val(license_data['licenseText']);
       }); 
     } else
     if(licenseInput.attr('list') == 'clas') {
