@@ -9,7 +9,7 @@ var base_url = '/static/license-diff';
 
 $(document).ready(function() {
     // Load the SPDX license drop down data
-    $.getJSON(base_url + '/license-list-data-3.27.0/json/licenses.json', function(resp) {
+    $.getJSON(base_url + '/license-list-data-3.27.0/json/license-ids.json', function(resp) {
        licenses = resp["data"];
        licenses.sort().forEach(function(license) {
          $('#licenses').append('<option>' + license + '</option>');
@@ -18,7 +18,7 @@ $(document).ready(function() {
     });
 
     // Load the CLA drop down data
-    $.getJSON(base_url + '/clas/clas.json', function(resp) {
+    $.getJSON(base_url + '/clas/cla-ids.json', function(resp) {
        clas = resp["data"];
        clas.sort().forEach(function(cla) {
          $('#clas').append('<option>' + cla + '</option>');
