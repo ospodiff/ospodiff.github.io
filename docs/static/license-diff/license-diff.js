@@ -4,18 +4,18 @@
 
 // It relies on myLicenseLookup having been filled with data by license-list.js
 
-var base_url = '/auctoritas';
+var base_url = '/static/license-diff';
 
 // Put license/CLA text into a textarea
 function updateText(licenseInput, textarea) {
     if(licenseInput.attr('list') == 'licenses') {
-      $.getJSON(base_url + '/api/alpha/license/' + licenseInput.val() + '.json', function(license_data) {
+      $.getJSON(base_url + '/license-list-data-3.27.0/json/details/' + licenseInput.val() + '.json', function(license_data) {
         textarea.val(license_data['data']['licenseText']);
       }); 
     } else
     if(licenseInput.attr('list') == 'clas') {
       $.ajax({
-        url : base_url + '/static/license-diff/clas/details/' + licenseInput.val() + '.txt',
+        url : base_url + '/clas/details/' + licenseInput.val() + '.txt',
         dataType: "text",
         success : function (data) {
           textarea.val(data);
