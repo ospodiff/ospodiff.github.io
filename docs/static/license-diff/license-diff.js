@@ -5,11 +5,12 @@
 // It relies on myLicenseLookup having been filled with data by license-list.js
 
 var base_url = '/static/license-diff';
+var license_list_data_url = base_url + '/license-list-data';
 
 // Put license/CLA text into a textarea
 function updateText(licenseInput, textarea) {
     if(licenseInput.attr('list') == 'licenses') {
-      $.getJSON(base_url + '/license-list-data-3.27.0/json/details/' + licenseInput.val() + '.json', function(license_data) {
+      $.getJSON(license_list_data_url + '/json/details/' + licenseInput.val() + '.json', function(license_data) {
         textarea.val(license_data['licenseText']);
       }); 
     } else
@@ -49,4 +50,3 @@ function showDiff() {
   $('#diffArea').html(diff);
   $('#diffArea').show();
 }
-

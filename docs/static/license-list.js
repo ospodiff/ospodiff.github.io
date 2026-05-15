@@ -6,10 +6,11 @@
 // SPDX ids are remembered to use as a lookup for a better experience in the spdx-id drop down
 var myLicenseLookup = new Set();
 var base_url = '/static/license-diff';
+var license_list_data_url = base_url + '/license-list-data';
 
 $(document).ready(function() {
     // Load the SPDX license drop down data
-    $.getJSON(base_url + '/license-list-data-3.27.0/json/license-ids.json', function(resp) {
+    $.getJSON(license_list_data_url + '/json/license-ids.json', function(resp) {
        licenses = resp["data"];
        licenses.sort().forEach(function(license) {
          $('#licenses').append('<option>' + license + '</option>');
@@ -29,7 +30,7 @@ $(document).ready(function() {
 
 // Check that a valid license has been entered, and then go to that url
 function gotoLicense(spdxId) {
-  window.location.href = base_url + '/license-list-data-3.27.0/json/details/' + spdxId + '.html';
+  window.location.href = license_list_data_url + '/json/details/' + spdxId + '.html';
 }
 
 // By default a text input with a datalist has to be defocused to
